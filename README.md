@@ -57,9 +57,7 @@ project/
 │   └── xgboost_reproduction.ipynb
 │
 ├── figures/
-│   ├── auc_comparison.png
-│   ├── depth_experiment.png
-│   └── learning_rate_experiment.png
+│   ├── results.png
 │
 ├── results/
 │   └── results.csv
