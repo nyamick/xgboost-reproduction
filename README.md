@@ -1,5 +1,3 @@
-# Reproduction of XGBoost: A Scalable Tree Boosting System
-
 ## О проекте
 
 Данный проект выполнен в рамках технологической практики магистерской программы «Большие данные и интеллектуальные системы».
@@ -15,7 +13,7 @@
 * исследование влияния гиперпараметров модели XGBoost;
 * сравнение XGBoost и LightGBM на одной задаче классификации.
 
----
+
 
 ## Используемая статья
 
@@ -29,7 +27,7 @@ Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discove
 
 https://arxiv.org/abs/1603.02754
 
----
+
 
 ## Датасет
 
@@ -46,7 +44,7 @@ https://arxiv.org/abs/1603.02754
 
 https://archive.ics.uci.edu/ml/datasets/HIGGS
 
----
+
 
 ## Структура проекта
 
@@ -67,7 +65,7 @@ project/
 └── README.md
 ```
 
----
+
 
 ## Установка
 
@@ -84,7 +82,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Используемые библиотеки
 
@@ -96,7 +94,7 @@ pip install -r requirements.txt
 * matplotlib
 * seaborn
 
----
+
 
 ## Запуск эксперимента
 
@@ -114,7 +112,7 @@ notebooks/xgboost_reproduction.ipynb
 
 и выполнить все ячейки последовательно.
 
----
+
 
 ## Параметры воспроизведения
 
@@ -130,7 +128,7 @@ notebooks/xgboost_reproduction.ipynb
 
 * ROC-AUC
 
----
+
 
 ## Дополнительные эксперименты
 
@@ -141,7 +139,7 @@ notebooks/xgboost_reproduction.ipynb
 3. Column subsampling (colsample_bytree = 0.5).
 4. Сравнение XGBoost и LightGBM.
 
----
+
 
 ## Воспроизводимость
 
@@ -153,7 +151,6 @@ SEED = 42
 
 Используемые версии библиотек указаны в файле requirements.txt.
 
----
 
 ## Автор
 
